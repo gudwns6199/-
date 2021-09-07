@@ -1,5 +1,6 @@
 .text
 .globl main
 main:
-  addi $t1, $t0, 2
-  addi $t0, $t1, -1
+  addi $t0, $0, -2
+  addi $t1, $0, 0xffffffff
+  addi $t2, $0, -1
