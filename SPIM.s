@@ -6,4 +6,4 @@ main:
   add $t5, $t3, $t4
   sub $t6, $t3, $t4
   addi $t7, $0, -6
-  add $t8, $t3, %t7
+  add $t8, $t3, $t7
