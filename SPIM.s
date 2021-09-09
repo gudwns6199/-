@@ -1,7 +1,5 @@
 .text
 .globl main
 main:
-  addi $t1, $0, 0x7FFFFFFF # later, in more detail
-  add $t2, $t1, $t1 # overflow
-  addu $t3, $t1, $t1 # no exception
-  addiu $t4, $t1, -1 # negative constant for addiu
+  addi $t1, $0, -2
+  subu $t2, $0, $t1
